@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  //width: 100%;
+  //height: 100%;
+  flex-wrap: wrap;
+  //background: lightgreen;
+  .card {
+    width: 25%;
+    height: 25%;
+    background: #043cfa;
+    color: white;
+    border-radius: 8px;
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      //background: lightgray;
+      justify-content: space-between;
+      align-items: center;
+
+      .cont_1 {
+//background: lightgray;
+      }
+
+      .cont_2 {
+        //background: lightgreen;
+        align-items: center;
+        text-align: center;
+        color: #f5cf39;
+      }
+    }
+
+    .review {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      //margin: 0 11rem 0 0;
+      //background: lightgreen;
+      p{
+        flex-wrap: wrap;
+        white-space: pre-line;
+      }
+    }
+  }
+}
